@@ -1,0 +1,46 @@
+<html>
+<head>
+    <Link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="kalkulator">
+
+        <input type="text" id="display" readonly>
+
+        <div class="tombol">
+            <button class="button" id="warna" onclick="bersihkan()">C</button>
+            <button class="button" onclick="isi('7')">7</button>
+            <button class="button" onclick="isi('8')">8</button>
+            <button class="button" onclick="isi('9')">9</button>
+        </div>
+
+        <div class="tombol">
+            <button class="button" id="warna" onclick="tambah('+')">+</button>
+            <button class="button" onclick="isi('4')">4</button>
+            <button class="button" onclick="isi('5')">5</button>
+            <button class="button" onclick="isi('6')">6</button>
+        </div>
+
+        <div class="tombol">
+            <button class="button" id="warna" onclick="kurang('-')">-</button>
+            <button class="button" onclick="isi('1')">1</button>
+            <button class="button" onclick="isi('2')">2</button>
+            <button class="button" onclick="isi('3')">3</button>
+        </div>
+
+        <div class="tombol">
+            <button class="button" id="warna" onclick="kali('*')">*</button>
+            <button class="button" onclick="isi('0')">0</button>
+            <button class="button" onclick="isi('00')">00</button>
+            <button class="button" id="warna" onclick="isi('.')">.</button>
+        </div>
+
+        <div class="tombol">
+            <button class="button" id="warna" onclick="bagi('/')">/</button>
+            <button class="button" id="warna" onclick="hasil()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

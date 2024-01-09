@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kalkulator {
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px black;
+}
+
+input[type="text"] {
+    width: 245px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    border: none;
+    font-size: larger;
+    background-color: #444;
+    color: white;
+    text-align: right;
+}
+
+.tombol {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #555;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+#warna {
+    color: rgb(245, 185, 35);
+}
